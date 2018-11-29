@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+.container {
+  border: 3px solid red;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 1000px;
+}
+.nav {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.heading {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
